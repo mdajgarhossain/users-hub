@@ -6,9 +6,9 @@ function Header() {
     return (
         <div className="header">
             <div className="d-flex justify-content-center">
-                <img src={logo} alt="users-hub-logo"/>
+                <img src={logo} className="img-fluid" alt="users-hub-logo"/>
             </div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">      
+            <nav className="navbar navbar-expand-lg navbar-dark">      
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
