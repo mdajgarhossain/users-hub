@@ -1,5 +1,5 @@
 import React from 'react';
-import users from '../../usersData/users';
+import users from '../../usersData/users.json';
 import User from '../User/User';
 import './UsersHub.css';
 
