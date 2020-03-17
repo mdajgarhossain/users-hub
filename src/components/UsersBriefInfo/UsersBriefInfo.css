@@ -1,0 +1,9 @@
+.users-brief{
+    color: #8d4822;;
+    border: 10px solid #8d4822;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 25px;
+    /* box-shadow: 7px 5px 20px #8d4822; */
+}

@@ -4,7 +4,7 @@ import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import './User.css';
 
 function User(props) {
-    console.log(props.user);
+    // console.log(props);
     const {name, email, phone, salary, image} = props.user;
     return (
         <div className="row d-flex justify-content-between" id="user">
@@ -22,6 +22,7 @@ function User(props) {
                             type="button" 
                             className="btn" 
                             id="add-user-btn"
+                            onClick={() => props.handleAddUser(props.user)}
                         >
                             <FontAwesomeIcon icon={faUserPlus} /> Add User
                         </button>
